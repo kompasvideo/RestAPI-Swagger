@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60505e09-8026-43ab-9512-85c7cf32d579" name="Changes" comment="sprint 11 после 1 ревью fix 2" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="add-friends-likes" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="29nqc8qL8Rxu97pbswTCLb4krqa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/My/JavaProjects/GitHub/java-filmorate&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f0df34eea21e3d373f145aba7609027e&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;h2&quot;
+    ]
+  }
+}</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn site:run" />
+      <command value="mvn spring-boot:run" />
+      <command value="mvn package" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="FilmorateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="java-filmorate" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.yandex.practicum.filmorate.FilmorateApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.yandex.practicum.filmorate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.FilmorateApplication" />
+        <item itemvalue="Spring Boot.FilmorateApplication" />
+        <item itemvalue="Spring Boot.FilmorateApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60505e09-8026-43ab-9512-85c7cf32d579" name="Changes" comment="" />
+      <created>1653759276556</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653759276556</updated>
+      <workItem from="1653759279243" duration="103000" />
+      <workItem from="1653759427705" duration="25000" />
+      <workItem from="1653759479116" duration="2441000" />
+      <workItem from="1653764089140" duration="1158000" />
+      <workItem from="1653769278160" duration="603000" />
+      <workItem from="1653854473325" duration="1275000" />
+      <workItem from="1653855796668" duration="1987000" />
+      <workItem from="1654881483447" duration="858000" />
+      <workItem from="1655026146047" duration="1298000" />
+      <workItem from="1655237618858" duration="847000" />
+      <workItem from="1655316829947" duration="1238000" />
+      <workItem from="1655322869260" duration="599000" />
+      <workItem from="1655398553125" duration="1401000" />
+      <workItem from="1655920973712" duration="201000" />
+      <workItem from="1655921188429" duration="4589000" />
+      <workItem from="1656008276135" duration="1787000" />
+      <workItem from="1656012546547" duration="2569000" />
+      <workItem from="1656090322345" duration="1222000" />
+      <workItem from="1656098720833" duration="3979000" />
+      <workItem from="1656149038724" duration="14275000" />
+      <workItem from="1656167077409" duration="1156000" />
+      <workItem from="1656175388299" duration="70000" />
+      <workItem from="1656175478818" duration="5671000" />
+      <workItem from="1656190101849" duration="4136000" />
+      <workItem from="1656228167893" duration="597000" />
+      <workItem from="1656230013762" duration="2903000" />
+      <workItem from="1656252060499" duration="11018000" />
+      <workItem from="1656268943225" duration="14000" />
+      <workItem from="1656273030634" duration="5976000" />
+      <workItem from="1656301895645" duration="265000" />
+      <workItem from="1656438784636" duration="21000" />
+      <workItem from="1656441135990" duration="2336000" />
+      <workItem from="1656527883922" duration="1018000" />
+      <workItem from="1656609616639" duration="712000" />
+      <workItem from="1656616806150" duration="624000" />
+      <workItem from="1656769359555" duration="612000" />
+      <workItem from="1658593817567" duration="1720000" />
+      <workItem from="1658656117358" duration="2479000" />
+      <workItem from="1659033971135" duration="34000" />
+      <workItem from="1659034078962" duration="1408000" />
+      <workItem from="1661024239954" duration="2024000" />
+      <workItem from="1662205764883" duration="3141000" />
+      <workItem from="1662227088689" duration="190000" />
+      <workItem from="1691395043962" duration="1441000" />
+      <workItem from="1691396564104" duration="13000" />
+      <workItem from="1691396645618" duration="4952000" />
+    </task>
+    <task id="LOCAL-00001" summary="fix: return to controllers-films-users">
+      <created>1653759584923</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653759584923</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix4:">
+      <created>1653760005033</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653760005033</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix5">
+      <created>1653764187486</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653764187486</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix7">
+      <created>1653854867077</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653854867077</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix8">
+      <created>1653855821666</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653855821666</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix9">
+      <created>1653856190479</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653856190479</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix10">
+      <created>1653857101326</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653857101326</updated>
+    </task>
+    <task id="LOCAL-00008" summary="sprint 10">
+      <created>1655316865765</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655316865765</updated>
+    </task>
+    <task id="LOCAL-00009" summary="sprint 11 до 1 ревью">
+      <created>1656264913322</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656264913322</updated>
+    </task>
+    <task id="LOCAL-00010" summary="sprint 11 до 1 ревью fix 1">
+      <created>1656266163485</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656266163485</updated>
+    </task>
+    <task id="LOCAL-00011" summary="sprint 11 до 1 ревью fix 2">
+      <created>1656267065559</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656267065559</updated>
+    </task>
+    <task id="LOCAL-00012" summary="sprint 11 до 1 ревью fix 2">
+      <created>1656267079066</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1656267079066</updated>
+    </task>
+    <task id="LOCAL-00013" summary="sprint 11 до 1 ревью fix 3">
+      <created>1656267808666</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1656267808666</updated>
+    </task>
+    <task id="LOCAL-00014" summary="sprint 11 до 1 ревью fix 3">
+      <created>1656267819696</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1656267819696</updated>
+    </task>
+    <task id="LOCAL-00015" summary="sprint 11 после 1 ревью">
+      <created>1656276942328</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1656276942328</updated>
+    </task>
+    <task id="LOCAL-00016" summary="sprint 11 после 1 ревью fix 1">
+      <created>1656278922449</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1656278922449</updated>
+    </task>
+    <task id="LOCAL-00017" summary="sprint 11 после 1 ревью fix 2">
+      <created>1656302151268</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1656302151268</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix: return to controllers-films-users" />
+    <MESSAGE value="fix4:" />
+    <MESSAGE value="fix5" />
+    <MESSAGE value="fix7" />
+    <MESSAGE value="fix8" />
+    <MESSAGE value="fix9" />
+    <MESSAGE value="fix10" />
+    <MESSAGE value="sprint 10" />
+    <MESSAGE value="sprint 11 до 1 ревью" />
+    <MESSAGE value="sprint 11 до 1 ревью fix 1" />
+    <MESSAGE value="sprint 11 до 1 ревью fix 2" />
+    <MESSAGE value="sprint 11 до 1 ревью fix 3" />
+    <MESSAGE value="sprint 11 после 1 ревью" />
+    <MESSAGE value="sprint 11 после 1 ревью fix 1" />
+    <MESSAGE value="sprint 11 после 1 ревью fix 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="sprint 11 после 1 ревью fix 2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/yandex/practicum/filmorate/storage/film/impl/FilmDbStorage.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_filmorate$FilmorateApplication.ic" NAME="FilmorateApplication Coverage Results" MODIFIED="1656267029361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.yandex.practicum.filmorate.*</FILTER>
+    </SUITE>
+  </component>
+</project>
