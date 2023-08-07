@@ -1,4 +1,5 @@
 # java-filmorate
+Добавление документации Swagger к SpringBoot RestAPI проекту 
 ![Схема БД](/../add-friends-likes/Схема_БД.png)
 ```
 Получение всех пользователей
