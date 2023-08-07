@@ -1,6 +1,7 @@
 package ru.yandex.practicum.filmorate.controller;
 
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +18,6 @@ import java.util.List;
 @RequestMapping
 @Slf4j
 @Tag(name = "Фильмы", description = "Управляет работой с фильмами")
-
 public class FilmController {
     private final FilmService filmService;
 
@@ -35,19 +35,19 @@ public class FilmController {
 
     @Operation(summary = "Добавить фильм", description = "Позволяет добавить один фильм")
     @PostMapping("/films")
-    public Film create(@Valid @RequestBody Film film) {
+    public Film create(@Valid @RequestBody @Parameter(description = "Фильм") Film film) {
         return filmService.create(film);
     }
 
     @Operation(summary = "Обновить фильм", description = "Позволяет изменить данные о фильме")
     @PutMapping("/films")
-    public Film put(@Valid @RequestBody Film film) {
+    public Film put(@Valid @RequestBody @Parameter(description = "Фильм") Film film) {
         return filmService.put(film);
     }
 
     @Operation(summary = "Получить фильм по id", description = "Позволяет получить информацию о фильме")
     @GetMapping("/films/{id}")
-    public Film film(@PathVariable int id) {
+    public Film film(@PathVariable @Parameter(description = "Id фильма") int id) {
         return filmService.film(id);
     }
 
@@ -59,7 +59,8 @@ public class FilmController {
     @Operation(summary = "Добавить лайк фильму от пользователя",
         description = "Позволяет добавить лайк фильму от пользователя")
     @PutMapping("/films/{id}/like/{userId}")
-    public void addLike(@PathVariable int id, @PathVariable int userId) {
+    public void addLike(@PathVariable @Parameter(description = "Id фильма") int id,
+              @PathVariable @Parameter(description = "Id пользователя") int userId) {
         filmService.addLike(id, userId);
     }
 
@@ -71,14 +72,16 @@ public class FilmController {
     @Operation(summary = "Удалиить лайк фильму от пользователя",
         description = "Позволяет удалить лайк фильму от пользователя")
     @DeleteMapping("/films/{id}/like/{userId}")
-    public void deleteLike(@PathVariable int id, @PathVariable int userId) {
+    public void deleteLike(@PathVariable @Parameter(description = "Id фильма") int id,
+             @PathVariable @Parameter(description = "Id пользователя") int userId) {
         filmService.deleteLike(id, userId);
     }
 
     @Operation(summary = "Вывести список популярных фильмов",
         description = "Позволяет узнать список популярных фильмов")
     @GetMapping("/films/popular")
-    public List<Film> listLikes(@RequestParam(required = false) Integer count) {
+    public List<Film> listLikes(@RequestParam(required = false) @Parameter(description = "Количество фильмов")
+                 Integer count) {
         if (count == null) {
             return filmService.listLikes();
         }
@@ -95,7 +98,7 @@ public class FilmController {
     @Operation(summary = "Вывести возрастной рейтинг",
         description = "Позволяет вывести возрастной рейтинг по id")
     @GetMapping("/mpa/{id}")
-    public Mpa getMpaById(@PathVariable int id) {
+    public Mpa getMpaById(@PathVariable @Parameter(description = "Id возрастного рейтинга") int id) {
         return filmService.getMpa(id);
     }
 
@@ -109,7 +112,7 @@ public class FilmController {
     @Operation(summary = "Вывести категорию фильма",
         description = "Позволяет вывести категорию фильма по id")
     @GetMapping("/genres/{id}")
-    public Genre getGenresById(@PathVariable int id) {
+    public Genre getGenresById(@PathVariable @Parameter(description = "Id категории") int id) {
         return filmService.getGenre(id);
     }
 }

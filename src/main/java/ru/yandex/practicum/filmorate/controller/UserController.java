@@ -1,6 +1,7 @@
 package ru.yandex.practicum.filmorate.controller;
 
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,13 +32,13 @@ public class UserController {
 
     @PostMapping("/users")
     @Operation(summary = "Создание пользователя", description = "Позволяет создать пользователя")
-    public User create(@Valid @RequestBody User user) {
+    public User create(@Valid @RequestBody @Parameter(description = "Пользователь") User user) {
         return userService.postUser(user);
     }
 
     @PutMapping("/users")
     @Operation(summary = "Обновление пользователя", description = "Позволяет изменить данные пользователя")
-    public User put(@Valid @RequestBody User user) {
+    public User put(@Valid @RequestBody @Parameter(description = "Пользователь") User user) {
         return userService.putUser(user);
     }
 
@@ -48,7 +49,7 @@ public class UserController {
      */
     @GetMapping("/users/{id}")
     @Operation(summary = "Получение пользователя по id", description = "Позволяет получить пользователя по id")
-    public User userById(@PathVariable int id) {
+    public User userById(@PathVariable @Parameter(description = "Id пользователя") int id) {
         return userService.getUser(id);
     }
 
@@ -57,7 +58,8 @@ public class UserController {
      */
     @PutMapping("/users/{id}/friends/{friendId}")
     @Operation(summary = "Добавить в друзья", description = "Позволяет добавить друга по id")
-    public void addFriends(@PathVariable int id, @PathVariable int friendId) {
+    public void addFriends(@PathVariable @Parameter(description = "Id пользователя") int id, @PathVariable
+    @Parameter(description = "Id друга") int friendId) {
         userService.addFriend(id, friendId);
     }
 
@@ -68,7 +70,8 @@ public class UserController {
      */
     @DeleteMapping("/users/{id}/friends/{friendId}")
     @Operation(summary = "Удалить из друзей", description = "Позволяет удалить друга по id")
-    public void deleteFriends(@PathVariable int id, @PathVariable int friendId) {
+    public void deleteFriends(@PathVariable @Parameter(description = "Id пользователя") int id,
+           @PathVariable @Parameter(description = "Id друга") int friendId) {
         userService.deleteFriend(id, friendId);
     }
 
@@ -80,7 +83,7 @@ public class UserController {
     @GetMapping("/users/{id}/friends")
     @Operation(summary = "Показать список друзей",
         description = "Возвращаем список пользователей, являющихся его друзьями")
-    public List<User> listFriends(@PathVariable int id) {
+    public List<User> listFriends(@PathVariable @Parameter(description = "Id пользователя") int id) {
         return userService.listFriends(id);
     }
 
@@ -93,7 +96,8 @@ public class UserController {
     @GetMapping("/users/{id}/friends/common/{otherId}")
     @Operation(summary = "Показать список друзей общих с другим пользователем",
         description = "Позволяет показать список друзей общих с другим пользователем")
-    public List<User> listOtherFriends(@PathVariable int id, @PathVariable int otherId) {
+    public List<User> listOtherFriends(@PathVariable @Parameter(description = "Id пользователя") int id,
+            @PathVariable  @Parameter(description = "Id другого пользователя")int otherId) {
         return userService.listOtherFriends(id, otherId);
     }
 }

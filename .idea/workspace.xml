@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60505e09-8026-43ab-9512-85c7cf32d579" name="Changes" comment="1">
+    <list default="true" id="60505e09-8026-43ab-9512-85c7cf32d579" name="Changes" comment="2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/filmorate/controller/FilmController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/filmorate/controller/FilmController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/filmorate/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/filmorate/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +167,7 @@
       <workItem from="1662227088689" duration="190000" />
       <workItem from="1691395043962" duration="1441000" />
       <workItem from="1691396564104" duration="13000" />
-      <workItem from="1691396645618" duration="7143000" />
+      <workItem from="1691396645618" duration="7608000" />
     </task>
     <task id="LOCAL-00001" summary="fix: return to controllers-films-users">
       <created>1653759584923</created>
@@ -308,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691407917246</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="2">
+      <created>1691409638320</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1691409638320</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +350,8 @@
     <MESSAGE value="sprint 11 после 1 ревью fix 1" />
     <MESSAGE value="sprint 11 после 1 ревью fix 2" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
