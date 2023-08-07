@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60505e09-8026-43ab-9512-85c7cf32d579" name="Changes" comment="sprint 11 после 1 ревью fix 2" />
+    <list default="true" id="60505e09-8026-43ab-9512-85c7cf32d579" name="Changes" comment="1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/filmorate/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/filmorate/controller/UserController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,7 +166,7 @@
       <workItem from="1662227088689" duration="190000" />
       <workItem from="1691395043962" duration="1441000" />
       <workItem from="1691396564104" duration="13000" />
-      <workItem from="1691396645618" duration="5655000" />
+      <workItem from="1691396645618" duration="7143000" />
     </task>
     <task id="LOCAL-00001" summary="fix: return to controllers-films-users">
       <created>1653759584923</created>
@@ -284,7 +287,28 @@
       <option name="project" value="LOCAL" />
       <updated>1656302151268</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="sprint 11 после 1 ревью fix 2">
+      <created>1691407791210</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1691407791210</updated>
+    </task>
+    <task id="LOCAL-00019" summary="sprint 11 после 1 ревью fix 2">
+      <created>1691407848088</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1691407848088</updated>
+    </task>
+    <task id="LOCAL-00020" summary="1">
+      <created>1691407917246</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1691407917246</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +341,8 @@
     <MESSAGE value="sprint 11 после 1 ревью" />
     <MESSAGE value="sprint 11 после 1 ревью fix 1" />
     <MESSAGE value="sprint 11 после 1 ревью fix 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="sprint 11 после 1 ревью fix 2" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

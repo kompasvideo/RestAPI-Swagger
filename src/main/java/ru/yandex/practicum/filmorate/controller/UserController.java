@@ -56,7 +56,7 @@ public class UserController {
      * добавление в друзья
      */
     @PutMapping("/users/{id}/friends/{friendId}")
-    @Operation(summary = "Добавить в друзья", description = "Позволяет получить пользователя по id")
+    @Operation(summary = "Добавить в друзья", description = "Позволяет добавить друга по id")
     public void addFriends(@PathVariable int id, @PathVariable int friendId) {
         userService.addFriend(id, friendId);
     }
@@ -67,16 +67,19 @@ public class UserController {
      * @param friendId
      */
     @DeleteMapping("/users/{id}/friends/{friendId}")
+    @Operation(summary = "Удалить из друзей", description = "Позволяет удалить друга по id")
     public void deleteFriends(@PathVariable int id, @PathVariable int friendId) {
         userService.deleteFriend(id, friendId);
     }
 
     /**
-     * возвращаем список пользователей, являющихся его друзьями
+     * Список друзей
      *
      * @return
      */
     @GetMapping("/users/{id}/friends")
+    @Operation(summary = "Показать список друзей",
+        description = "Возвращаем список пользователей, являющихся его друзьями")
     public List<User> listFriends(@PathVariable int id) {
         return userService.listFriends(id);
     }
@@ -88,6 +91,8 @@ public class UserController {
      * @return
      */
     @GetMapping("/users/{id}/friends/common/{otherId}")
+    @Operation(summary = "Показать список друзей общих с другим пользователем",
+        description = "Позволяет показать список друзей общих с другим пользователем")
     public List<User> listOtherFriends(@PathVariable int id, @PathVariable int otherId) {
         return userService.listOtherFriends(id, otherId);
     }
