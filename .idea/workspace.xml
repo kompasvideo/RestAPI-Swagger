@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60505e09-8026-43ab-9512-85c7cf32d579" name="Changes" comment="2">
+    <list default="true" id="60505e09-8026-43ab-9512-85c7cf32d579" name="Changes" comment="3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/filmorate/controller/FilmController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/filmorate/controller/FilmController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/filmorate/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/filmorate/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/filmorate.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/db/filmorate.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/filmorate/model/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/filmorate/model/Film.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/filmorate/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/practicum/filmorate/model/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +168,7 @@
       <workItem from="1662227088689" duration="190000" />
       <workItem from="1691395043962" duration="1441000" />
       <workItem from="1691396564104" duration="13000" />
-      <workItem from="1691396645618" duration="7608000" />
+      <workItem from="1691396645618" duration="8411000" />
     </task>
     <task id="LOCAL-00001" summary="fix: return to controllers-films-users">
       <created>1653759584923</created>
@@ -316,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691409638320</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="3">
+      <created>1691410191670</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1691410191670</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +359,8 @@
     <MESSAGE value="sprint 11 после 1 ревью fix 2" />
     <MESSAGE value="1" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

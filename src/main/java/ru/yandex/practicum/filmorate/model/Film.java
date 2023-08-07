@@ -1,5 +1,6 @@
 package ru.yandex.practicum.filmorate.model;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Builder;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,17 +13,25 @@ import java.util.List;
 
 @Data
 @Builder
+@Schema(description = "Фильм")
 public class Film {
     private int id;
     @NotEmpty
+    @Schema(description = "Название", example = "Бэтмен")
     private String name;
     @Size(max = 200)
+    @Schema(description = "Описание", example = "Продолжение культовой супергеройской франшизы")
     private String description;
+    @Schema(description = "Дата релиза", example = "01.01.2022")
     private LocalDate releaseDate;
+    @Schema(description = "Длительность", example = "150")
     private int duration;
+    @Schema(description = "Рейтнинг", example = "8")
     private int rate;
     @NotNull
+    @Schema(description = "Возрастной рейтинг", example = "NC-17")
     private Mpa mpa;
+    @Schema(description = "Жанр", example = "Боевик")
     private List<Genre> genres;
 
     @Autowired
